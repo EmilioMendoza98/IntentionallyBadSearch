@@ -2,9 +2,25 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="static/css/master.css">
+    <link rel="stylesheet" href="static/css/searchbar.css">
     <title>Intentionally bad search</title>
   </head>
   <body>
-
+    <header>
+      <h1>Please Never use this as real search</h1>
+    </header>
+    <div id="cover">
+        <div class="tb">
+          <div class="td"><input type="text" id="searchBar"placeholder="Search" required></div>
+          <div class="td" id="s-cover">
+            <button id="submit" type="submit">
+              <div id="s-circle"></div>
+              <span></span>
+            </button>
+          </div>
+        </div>
+    </div>
+    <script src="static/js/index.js" charset="utf-8"></script>
   </body>
 </html>
